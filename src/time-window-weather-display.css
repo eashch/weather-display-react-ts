@@ -1,0 +1,33 @@
+.time-window-weather {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgb(30, 30, 31);
+    background: linear-gradient(180deg, rgba(30, 30, 31, 1) 0%, rgba(74, 74, 77, 1) 100%);
+    border-radius: 16px;
+}
+
+.time-window-weather__time {
+    font-size: 20px;
+}
+
+.time-window-weather div p {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.time-window-weather__temperature {
+    font-size: 40px;
+}
+
+.additional-parameters-block {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: flex-end;
+    align-items: center;
+}

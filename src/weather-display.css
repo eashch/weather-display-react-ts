@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+}
+
+.button {
+    cursor: pointer;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: aliceblue;
+}
+
+.body {
+    width: 100%;
+}
+
+.text {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.text_regular {
+    font-size: 15px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.weather-display {
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.days-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    overflow-y: scroll;
+    height: 450px;
+}
+
+.icon-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    min-width: 120px;
+}
+

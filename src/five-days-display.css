@@ -1,0 +1,35 @@
+.five-days-display {
+    width: 100vw;
+    height: 450px;
+    background-image: url("/src/backgrounds/background-space.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-attachment: fixed;
+    overflow-y: scroll;
+}
+
+.five-days-container {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.date-display {
+    height: 40px;
+    padding-left: 10px;
+    background: rgb(14, 14, 14);
+    background: linear-gradient(180deg, rgba(14, 14, 14, 1) 0%, rgba(36, 36, 37, 1) 100%);
+    border: 4px black solid;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.date-display p {
+    color: aliceblue;
+    font-size: 20px;
+    display: block;
+}
